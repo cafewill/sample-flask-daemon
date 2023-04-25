@@ -16,17 +16,13 @@ Step #3 Docker build
 
     sudo docker build -t flask-daemon .
 
-Step #3 Docker run
+Step #3 Docker run and connect localhost:5000 or localhost:8282
 
     sudo docker run -p 5000:80 flask-daemon
     sudo docker run -p 8282:80 flask-daemon
 
 ## See Also
 
-* https://github.com/cafewill/spring-daemon-devel
-* https://github.com/cafewill/node-daemon-devel
-* https://github.com/cafewill/flask-daemon-devel
-* https://github.com/cafewill/fastapi-daemon-devel
-
-* https://github.com/cafewill/simple-crud-gradle-jpa-h2-thymeleaf
-* https://github.com/cafewill/simple-crud-maven-jpa-h2-freemarker
+* https://github.com/cafewill/sample-node-daemon
+* https://github.com/cafewill/sample-flask-daemon
+* https://github.com/cafewill/sample-spring-daemon
