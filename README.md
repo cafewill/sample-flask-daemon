@@ -20,6 +20,9 @@ Step #3 Docker run and connect localhost:5000 or localhost:8282
 
     sudo docker run -p 5000:80 flask-daemon
     sudo docker run -p 8282:80 flask-daemon
+    
+    sudo docker ps
+    sudo docker logs -f [container id]
 
 ## See Also
 
